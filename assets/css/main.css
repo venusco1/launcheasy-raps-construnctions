@@ -215,7 +215,7 @@ h6 {
     padding-right: 0;
   }
 
-  /* .navmenu a,
+  .navmenu a,
   .navmenu a:focus {
     color: var(--nav-color);
     font-size: 14px;
@@ -229,7 +229,7 @@ h6 {
     transition: 0.3s;
     position: relative;
     text-transform: uppercase;
-  } */
+  }
 
   .navmenu a i,
   .navmenu a:focus i {
@@ -240,10 +240,10 @@ h6 {
   }
 
   .navmenu>ul>li>a:before {
-    /* content: ""; */
+    content: "";
     position: absolute;
     height: 2px;
-    bottom: 0px;
+    bottom: -6px;
     left: 0;
     background-color: var(--accent-color);
     visibility: hidden;
@@ -789,24 +789,19 @@ section,
   }
 }
 
-.hero .info h3 {
+.hero .info h2 {
   margin-bottom: 30px;
   padding-bottom: 30px;
-  font-size: 50px;
+  font-size: 56px;
   font-weight: 700;
   position: relative;
 }
 
-.hero .info h2 {
-    font-size: 60px;
-    font-weight: 700;
-    position: relative;
-}
-.hero .info h3:after {
+.hero .info h2:after {
   content: "";
   position: absolute;
   display: block;
-  width: 60px;
+  width: 80px;
   height: 4px;
   background: var(--accent-color);
   left: 0;
@@ -1643,11 +1638,11 @@ section,
   background-color: color-mix(in srgb, var(--default-color), transparent 96%);
 }
 
-/* @media (min-width: 991px) {
+@media (min-width: 991px) {
   .about .our-story {
     padding-right: 35%;
   }
-} */
+}
 
 .about .our-story h4 {
   text-transform: uppercase;
